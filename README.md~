@@ -47,12 +47,10 @@ rails g social_login
 If you have already installed devise for user, the generator will skip the steps for installation of devise.
 
 If the file 'config/application.rb' doesnt have the line 
-
 ```console
 "config.devise_model_name ='user'" 
 ```
-
-Please insert before the end keyword of the class Application, where the devise model name(user/employee/post) what you are using should be specified appropriately.
+please insert before the end keyword of the class Application, where the devise model name(user/employee/post) what you are using should be specified appropriately.
 
 Replace the 'consumer_key' and 'consumer_secret' in the respective provider (twitter,facebook,linkedin).yml files in your config folder.
 

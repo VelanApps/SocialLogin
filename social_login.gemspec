@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.version       = "0.0.1"
   s.require_path  = "lib"
   s.license       = "MIT"
-  s.homepage      = "https://github.com/"
+  s.homepage      = "https://github.com/VelanApps/SocialLogin/"
   s.add_dependency 'multi_json', '~> 1.3'
   s.add_runtime_dependency 'devise'
   s.add_runtime_dependency 'omniauth'
