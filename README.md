@@ -30,7 +30,7 @@ Now sign in into the LinkedIn developer area(https://developer.linkedin.com/) an
 First start by adding this gem to your Gemfile:
 
 ```ruby
-gem 'social_login' , '1.0.0'
+gem 'social_login' , '0.0.1'
 ```
 Then just do a 'bundle update'.
 
