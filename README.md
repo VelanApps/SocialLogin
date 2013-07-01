@@ -41,7 +41,7 @@ bundle update
 After that run the command  'rails g social_login' in your terminal editor.
 
 ```console
-rails g social_accounts
+rails g social_login
 ```
 
 If you have already installed devise for user, the generator will skip the steps for installation of devise.
