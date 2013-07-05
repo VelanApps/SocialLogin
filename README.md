@@ -56,4 +56,12 @@ Please insert before the end keyword of the class Application, where the devise 
 
 Replace the 'consumer_key' and 'consumer_secret' in the respective provider (twitter,facebook,linkedin).yml files in your config folder.
 
+```console
+<% if current_user %>
+   Logged in as <strong><%= current_user.email %></strong>.
+   <%= link_to "Sign Out", signout_path,:class => 'navbar-link' %>
+<%end%>
+```
+Place the code to get current user signed in your index file.
+
 This project rocks and uses "[MIT-LICENSE](https://github.com/VelanApps/SocialLogin/blob/master/MIT-LICENSE)".
