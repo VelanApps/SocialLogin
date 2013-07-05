@@ -141,12 +141,6 @@ class SocialLoginGenerator < Rails::Generators::Base
     puts "        match '/signout', :to => 'sessions#destroy' , :as => :signout \n\n"
     puts "   2) Kindly place the code in the html file you need to create the social login: \n\n"
     puts "       <%= render 'sessions/social_login' %> \n\n"
-    # puts "   3) Kindly paste the style in application.css in your 'app/assets/stylesheets': \n\n"+
-    # puts "        .notice \n "+
-    # puts "          { \n"+
-    # puts "             padding: 5px; \n "+
-    # puts "             font-weight:bold; \n"+
-    # puts "          }\n\n"+
     puts "   3) Kindly Replace the Consumer Key and Consumer Secret of your App in the .yml files"
     puts "\n==========================================================================================\n"
   end #EO def create_comments
