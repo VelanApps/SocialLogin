@@ -1,4 +1,4 @@
-# Social Accounts Creation
+# Social Login Creation
 
 This gem contains the Twitter,Facebook,Linked-In strategy for OmniAuth.
 
