@@ -56,4 +56,4 @@ Please insert before the end keyword of the class Application, where the devise 
 
 Replace the 'consumer_key' and 'consumer_secret' in the respective provider (twitter,facebook,linkedin).yml files in your config folder.
 
-This project rocks and uses (https://github.com/VelanApps/SocialLogin/blob/master/MIT-LICENSE)MIT-LICENSE.
+This project rocks and uses "[MIT-LICENSE](https://github.com/VelanApps/SocialLogin/blob/master/MIT-LICENSE)".
